@@ -10,4 +10,6 @@ class Todo(SQLModel, table=True):
     due_date: datetime = Field(default_factory=datetime.utcnow)
     priority: int = Field(default=0)
     description: Optional[str] = None
+    is_deleted: bool = False
     category: Optional[str] = None
+    label: Optional[str] = None

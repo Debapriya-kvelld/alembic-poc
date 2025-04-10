@@ -1,4 +1,9 @@
 *.db
+*.cpython-313.pyc
+*.pyc
+__pycache__
+__pycache__/
+*.db
 .env
 __pycache__
 __pycache__/*
