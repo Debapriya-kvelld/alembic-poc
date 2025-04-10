@@ -11,3 +11,4 @@ class Todo(SQLModel, table=True):
     priority: int = Field(default=0)
     description: Optional[str] = None
     is_deleted: bool = False
+    category: Optional[str] = None
