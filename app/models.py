@@ -12,3 +12,4 @@ class Todo(SQLModel, table=True):
     description: Optional[str] = None
     is_deleted: bool = False
     category: Optional[str] = None
+    label: Optional[str] = None
